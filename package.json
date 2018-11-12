@@ -1,0 +1,31 @@
+{
+  "name": "@amindunited/file-stat",
+  "version": "0.0.0",
+  "description": "This function returns information about a file",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html mocha './src/**/*.test.js' --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amindunited/file-stat.git"
+  },
+  "keywords": [
+    "File",
+    "status",
+    "Promise",
+    "fs.stat",
+    "info"
+  ],
+  "author": "amindunited",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amindunited/file-stat/issues"
+  },
+  "homepage": "https://github.com/amindunited/file-stat#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
